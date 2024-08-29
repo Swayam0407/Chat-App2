@@ -9,6 +9,7 @@ const Message = require("./server/models/Message"); // Import the Message model
 require("./config/db"); // Ensure this path matches where you put db.js
 
 const app = express();
+const port = process.env.PORT || 8080;
 
 // Use CORS middleware
 app.use(cors());
@@ -80,6 +81,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(8080, () => {
+server.listen(port, () => {
   console.log("Server is running on http://localhost:8080");
 });
