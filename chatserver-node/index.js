@@ -4,13 +4,14 @@ const { Server } = require("socket.io");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const Message = require("./server/models/Message"); // Import the Message model
+require("dotenv").config();
 
 // Import database connection
 require("./config/db"); // Ensure this path matches where you put db.js
 
 const app = express();
 const port = process.env.PORT || 8080;
-require("dotenv").config();
+
 
 
 // Use CORS middleware
