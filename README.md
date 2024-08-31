@@ -63,22 +63,25 @@ Ensure you have the following installed on your system:
    ```bash
    mongod
 
-2. **Start the backend server:**
+2. **Navigate to the backend server:**
 
    ```bash
    cd chatserver-node
 
+3. **Start the backend server:**
+
    ```bash
    node index.js
 
-3. **Start the React frontend:**
+4. **Navigate the React frontend:**
 
    ```bash
    cd chatserver-client
 
+5. **Start the frontend:**
+
    ```bash
    npm start
-
 
 5. **Open the application:**
 Open your web browser and navigate to http://localhost:3000 to use the chat application.
