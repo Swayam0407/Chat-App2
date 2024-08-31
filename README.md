@@ -10,7 +10,6 @@ Welcome to the Chat-App, a real-time messaging application built using React.js,
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -74,8 +73,28 @@ Ensure you have the following installed on your system:
    ```bash
    npm start
 
+
 4. **Open the application:**
 Open your web browser and navigate to http://localhost:3000 to use the chat application.
+
+### Screenshots
+<img width="1680" alt="Screenshot 2024-09-01 at 2 19 04 AM" src="https://github.com/user-attachments/assets/68cf6bd8-7c08-43a7-9a2b-fd26920af15d">
+
+<img width="1536" alt="Screenshot 2024-09-01 at 2 20 40 AM" src="https://github.com/user-attachments/assets/d2321032-f986-4314-a498-33b520f766ca">
+
+<img width="1607" alt="Screenshot 2024-09-01 at 2 21 54 AM" src="https://github.com/user-attachments/assets/76d1529f-34d3-4a17-80e6-428930429b8e">
+
+<img width="1607" alt="Screenshot 2024-09-01 at 2 22 40 AM" src="https://github.com/user-attachments/assets/1a50a847-4fc6-4b70-becc-01498ebcf615">
+
+<img width="1680" alt="Screenshot 2024-09-01 at 2 23 53 AM" src="https://github.com/user-attachments/assets/a727ac40-1b46-42c8-a4f4-5337901a18ae">
+
+
+
+
+### License
+This project is open-source and available under the MIT License.
+
+
 
 
 
