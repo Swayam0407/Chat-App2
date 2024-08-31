@@ -1,6 +1,6 @@
 # Chat-App
 
-Welcome to the Chat-App, a real-time messaging application built using React.js and Socket.io. This app supports both public and private chat functionalities, allowing users to interact in a group chat or have one-on-one private conversations.
+Welcome to the Chat-App, a real-time messaging application built using React.js, Express, Socket.io, and MongoDB. This app supports both public and private chat functionalities, allowing users to interact in a group chat or have one-on-one private conversations.
 
 ## Table of Contents
 
@@ -19,11 +19,13 @@ Welcome to the Chat-App, a real-time messaging application built using React.js 
 - **Private Messaging**: Users can send private messages to each other without others seeing them.
 - **User Authentication**: Simple username-based identification for chat sessions.
 - **Real-time Communication**: All messages are delivered instantly using WebSockets.
+- **Persistent Storage**: User data and messages are stored in MongoDB for persistence across sessions.
 
 ## Technologies Used
 
 - **Frontend**: React.js
-- **Backend**: Node.js with Socket.io for real-time communication
+- **Backend**: Node.js with Express.js and Socket.io for real-time communication
+- **Database**: MongoDB for storing user data and messages
 - **Styling**: CSS for simple styling
 
 ## Getting Started
@@ -36,6 +38,7 @@ Ensure you have the following installed on your system:
 
 - Node.js (v14 or later)
 - npm (v6 or later)
+- MongoDB (latest version)
 
 ### Installation
 
@@ -43,3 +46,56 @@ Ensure you have the following installed on your system:
 
    ```bash
    git clone https://github.com/Swayam0407/Chat-App2.git
+
+2. **Navigate into the directory:**
+
+   ```bash
+   cd Chat-App2
+
+3. **Install the dependencies:**
+
+   ```bash
+   npm install
+
+### Usage
+
+1. **Start MongoDB Server:**
+
+   ```bash
+   mongod
+
+2. **Start the backend server:**
+
+   ```bash
+   node server.js
+
+3. **Start the React frontend:**
+
+   ```bash
+   npm start
+
+4. **Open the application:**
+Open your web browser and navigate to http://localhost:3000 to use the chat application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
