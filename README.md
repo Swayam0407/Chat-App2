@@ -66,15 +66,21 @@ Ensure you have the following installed on your system:
 2. **Start the backend server:**
 
    ```bash
-   node server.js
+   cd chatserver-node
+
+   ```bash
+   node index.js
 
 3. **Start the React frontend:**
+
+   ```bash
+   cd chatserver-client
 
    ```bash
    npm start
 
 
-4. **Open the application:**
+5. **Open the application:**
 Open your web browser and navigate to http://localhost:3000 to use the chat application.
 
 ### Screenshots
